@@ -13,3 +13,12 @@ main:
 
 	addi $a0, $a0, -64 # Prints (0)
 	syscall
+
+	addi $a0, $a0, 2 # Prints (2)
+	syscall
+	
+	addi $a0, $a0, 6 # Prints (8)
+	syscall
+	
+	addi $a0, $a0,-2 # Prints (6)
+	syscall
