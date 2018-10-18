@@ -22,3 +22,12 @@ main:
 	
 	addi $a0, $a0,-2 # Prints (6)
 	syscall
+
+	addi $a0, $a0,-6 # Prints (0)
+	syscall
+
+	addi $a0, $a0,7 # Prints (7)
+	syscall
+
+	addi $a0, $a0-5 # Prints (2)
+	syscall
