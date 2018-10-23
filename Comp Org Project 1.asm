@@ -9,8 +9,7 @@ main:
 	syscall 
 	
 	li $v0, 1 # System call for printing integers
-	syscall
-
+	
 	addi $a0, $a0, -64 # Prints (0)
 	syscall
 
@@ -49,5 +48,11 @@ main:
 	addi $a0, $a0, 22 # Prints w (119)
 	syscall
 	
+	addi $a0, $a0, -11 # Prints l (108)
+	syscall
+
+	addi $a0, $a0, -11 # Prints a (97)
+	syscall
 	
-	
+	addi $a0, $a0, -53 # Prints , (44)
+	syscall
