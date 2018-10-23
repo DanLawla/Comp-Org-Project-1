@@ -29,5 +29,14 @@ main:
 	addi $a0, $a0,7 # Prints (7)
 	syscall
 
-	addi $a0, $a0-5 # Prints (2)
+	addi $a0, $a0,-5 # Prints (2)
 	syscall
+
+	addi $a0, $a0,5 # Prints (7)
+	syscall
+	
+	li $v0, 11
+	
+	addi $a0, $a0, 6 # New line
+	syscall
+	
