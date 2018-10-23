@@ -56,3 +56,12 @@ main:
 	
 	addi $a0, $a0, -53 # Prints , (44)
 	syscall
+
+	addi $a0, $a0, -24 # Prints [space] (20)
+	syscall
+
+	addi $a0, $a0, 48 # Prints D (68)
+	syscall
+
+	addi $a0, $a0, 29 # Prints a (97)
+	syscall
