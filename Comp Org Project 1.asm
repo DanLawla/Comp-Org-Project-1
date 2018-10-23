@@ -35,8 +35,19 @@ main:
 	addi $a0, $a0,5 # Prints (7)
 	syscall
 	
-	li $v0, 11
+	li $v0, 11 # Call for printing characters
 	
-	addi $a0, $a0, 6 # New line
+	addi $a0, $a0, 3 # New line (10)
 	syscall
+
+	addi $a0, $a0, 66 # Prints L (76)
+	syscall
+
+	addi $a0, $a0, 21 # Prints a (97)
+	syscall
+
+	addi $a0, $a0, 22 # Prints w (119)
+	syscall
+	
+	
 	
