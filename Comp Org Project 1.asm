@@ -57,11 +57,26 @@ main:
 	addi $a0, $a0, -53 # Prints , (44)
 	syscall
 
-	addi $a0, $a0, -24 # Prints [space] (20)
+	addi $a0, $a0, -12 # Prints [space] (32)
 	syscall
 
-	addi $a0, $a0, 48 # Prints D (68)
+	addi $a0, $a0, 36 # Prints D (68)
 	syscall
 
 	addi $a0, $a0, 29 # Prints a (97)
+	syscall
+
+	addi $a0, $a0, 13 # Prints n (110)
+	syscall
+
+	addi $a0, $a0, -5 # Prints i (105)
+	syscall
+
+	addi $a0, $a0, -4 # Prints e (101)
+	syscall
+
+	addi $a0, $a0, 7 # Prints l (108)
+	syscall
+
+	li $v0, 10 # Exit program
 	syscall
